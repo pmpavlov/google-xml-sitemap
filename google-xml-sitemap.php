@@ -9,7 +9,7 @@
  * @wordpress
  * Plugin Name: Google XML Sitemap
  * Plugin URI: https://github.com/corvannoorloos/google-xml-sitemap
- * Description: ASitemaps are a way to tell Google about pages on your site we might not otherwise discover. In its simplest terms, a XML Sitemap&mdash;usually called Sitemap, with a capital S&mdash;is a list of the pages on your website. Creating and submitting a Sitemap helps make sure that Google knows about all the pages on your site, including URLs that may not be discoverable by Google's normal crawling process.
+ * Description: Sitemaps are a way to tell Google about pages on your site we might not otherwise discover. In its simplest terms, a XML Sitemap&mdash;usually called Sitemap, with a capital S&mdash;is a list of the pages on your website. Creating and submitting a Sitemap helps make sure that Google knows about all the pages on your site, including URLs that may not be discoverable by Google's normal crawling process.
  * Author: Cor van Noorloos
  * Version: 0.1.0
  * Author URI: http://corvannoorloos.com/
