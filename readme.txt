@@ -15,3 +15,4 @@ Sitemaps are a way to tell Google about pages on your site we might not otherwis
 
 1. Unzip and upload `google-xml-sitemap` folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Visit `http://yourdomain.com/sitemap.xml`
