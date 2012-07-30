@@ -1,6 +1,6 @@
 === Google XML Sitemap ===
-Contributors: corvannoorloos 
-Tags: sitemap, xml, google, seo, bing
+Contributors: corvannoorloos
+Tags: bing, google, seo, sitemap, xml
 Requires at least: 3.3
 Tested up to: 3.5
 Stable tag: trunk
@@ -9,7 +9,9 @@ In its simplest terms, a XML Sitemap-usually called Sitemap, with a capital S-is
 
 == Description ==
 
-Sitemaps are a way to tell Google about pages on your site we might not otherwise discover. In its simplest terms, a XML Sitemap-usually called Sitemap, with a capital S-is a list of the pages on your website.
+Sitemaps are a way to tell Google about pages on your site we might not otherwise discover.
+
+In its simplest terms, a XML Sitemap-usually called Sitemap, with a capital S-is a list of the pages on your website.
 
 Creating and submitting a Sitemap helps make sure that Google knows about all the pages on your site, including URLs that may not be discoverable by Google's normal crawling process.
 
