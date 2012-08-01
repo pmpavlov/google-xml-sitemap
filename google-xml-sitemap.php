@@ -11,7 +11,7 @@
  * Plugin URI: https://github.com/corvannoorloos/google-xml-sitemap
  * Description: Sitemaps are a way to tell Google about pages on your site we might not otherwise discover. In its simplest terms, a XML Sitemap&mdash;usually called Sitemap, with a capital S&mdash;is a list of the pages on your website. Creating and submitting a Sitemap helps make sure that Google knows about all the pages on your site, including URLs that may not be discoverable by Google's normal crawling process.
  * Author: Cor van Noorloos
- * Version: 0.1.0
+ * Version: 0.1.1
  * Author URI: http://corvannoorloos.com/
  */
 
@@ -19,7 +19,7 @@ add_action( 'template_redirect', 'google_sitemap' );
 /**
  * Google XML Sitemap
  *
- * @since 0.1.0
+ * @since 0.1.1
  *
  * @global type $wpdb
  *
@@ -36,6 +36,7 @@ function google_sitemap() {
     AND post_password = ''
     ORDER BY post_type DESC, post_modified DESC
     LIMIT 50000" );
+  header( "HTTP/1.1 200 OK" );
   header( 'X-Robots-Tag: noindex, follow', true );
   header( 'Content-Type: text/xml' );
   echo '<?xml version="1.0" encoding="' . get_bloginfo( 'charset' ) . '"?>' . "\n";

@@ -19,4 +19,12 @@ Creating and submitting a Sitemap helps make sure that Google knows about all th
 
 1. Unzip and upload `google-xml-sitemap` folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Visit `http://yourdomain.com/sitemap.xml`
+1. Visit `http://yourdomain.tld/sitemap.xml`
+
+== Changelog ==
+
+= 0.1.0 =
+Initial release
+
+= 0.1.1 =
+Set HTTP Headers. Some occasional errors when submitting to Google Webmaster Tools.
